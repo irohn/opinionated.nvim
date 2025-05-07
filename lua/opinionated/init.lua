@@ -64,6 +64,7 @@ local defaults = {
     ["<c-d>"] = { mode = "n", action = "<c-d>zz", desc = "center screen when scrolling half page down" },
     ["n"] = { mode = "n", action = "nzzzv", desc = "center screen on next match" },
     ["N"] = { mode = "n", action = "Nzzzv", desc = "center screen on previous match" },
+    ["<esc><esc>"] = { mode = "t", action = "<C-\\><C-n>", desc = "exit terminal mode" },
   },
 }
 
